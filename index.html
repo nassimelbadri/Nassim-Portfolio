@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Meta -->
+    <title>Nassim Elbadri | Full-Stack Developer</title>
+    <meta name="description" content="Full-Stack Developer specializing in web development, artificial intelligence, cloud computing, and modern digital solutions." />
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nassim Elbadri | Full-Stack Developer">
+    <meta property="og:description" content="Full-Stack Developer specializing in web development, artificial intelligence, cloud computing, and modern digital solutions.">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Nassim Elbadri | Full-Stack Developer">
+    <meta name="twitter:description" content="Full-Stack Developer specializing in web development, artificial intelligence, cloud computing, and modern digital solutions.">
+    
+    <!-- Structured Data JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nassim Elbadri",
+      "jobTitle": "Full-Stack Developer",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Fes",
+        "addressCountry": "Morocco"
+      },
+      "url": "https://nassim-portfolio.com",
+      "sameAs": [
+        "https://github.com/nassimelbadri",
+        "https://www.linkedin.com/in/nassim-elbadri/"
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <!-- Toast Notification Container -->
+    <div id="toast" class="toast hidden" role="alert">Copied to clipboard!</div>
+
+    <!-- Floating Background Elements -->
+    <div class="bg-shape bg-shape-1" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-2" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-3" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-4" aria-hidden="true"></div>
+
+    <header class="glass-nav" role="banner">
+      <div class="nav-container">
+        <a href="#" class="logo" aria-label="Nassim Elbadri Home">NE<span>.</span></a>
+        <nav class="desktop-nav" role="navigation" aria-label="Main Navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#journey">Journey</a>
+          <a href="#contact" class="btn-primary-small">Contact</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </header>
+
+    <main role="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero-section" aria-label="Introduction">
+        <div class="container hero-content">
+          <div class="hero-text fade-up">
+            <div class="availability-badge mb-4">
+              <span class="pulsing-dot" aria-hidden="true"></span>
+              Available for Internships and Junior Opportunities
+            </div>
+            <span class="greeting">Hello, I am</span>
+            <h1 class="headline">Nassim Elbadri</h1>
+            <h2 class="subheadline">Full-Stack Developer | AI & Cloud Enthusiast</h2>
+            <p class="description">
+              Full-Stack Developer passionate about building modern web applications, AI-powered solutions, and scalable digital products through continuous learning and real-world projects.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn-primary" aria-label="View my projects">
+                View Projects
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <a href="CV_Nassim_Elbadri.pdf" download id="download-cv" class="btn-secondary" aria-label="Download CV">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download CV
+              </a>
+              <a href="#contact" class="btn-glass" aria-label="Contact me">
+                Contact Me
+              </a>
+            </div>
+            
+            <div class="social-links-hero mt-8">
+              <a href="https://github.com/nassimelbadri" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" class="social-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/nassim-elbadri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" class="social-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Statistics Section -->
+      <section id="statistics" class="stats-section fade-up" aria-label="Statistics">
+        <div class="container">
+          <div class="stats-grid glass-card">
+            <div class="stat-item">
+              <h3 class="stat-number">5+</h3>
+              <p class="stat-label">Projects</p>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <h3 class="stat-number">5</h3>
+              <p class="stat-label">Certifications</p>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <h3 class="stat-number">4</h3>
+              <p class="stat-label">Languages</p>
+            </div>
+            <div class="stat-divider" aria-hidden="true"></div>
+            <div class="stat-item">
+              <h3 class="stat-number">2026</h3>
+              <p class="stat-label">Graduation</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about-section section-padding" aria-label="About Me">
+        <div class="container">
+          <div class="section-header fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          <div class="about-content glass-card fade-up">
+            <div class="about-text">
+              <p>Passionate Full-Stack Developer focused on web development, artificial intelligence, cloud computing, and cybersecurity.</p>
+              <p>I enjoy transforming ideas into real products and continuously improving my technical skills through hands-on projects and learning.</p>
+              <div class="location-badge mt-4">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                Fes, Morocco
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section section-padding" aria-label="Skills">
+        <div class="container">
+          <div class="section-header fade-up">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          
+          <div class="skills-grid">
+            <!-- Frontend -->
+            <div class="skill-category glass-card fade-up">
+              <div class="category-header">
+                <div class="icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line></svg>
+                </div>
+                <h3>Frontend</h3>
+              </div>
+              <ul class="skill-list" aria-label="Frontend skills">
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> HTML</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> CSS</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> JavaScript</li>
+              </ul>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category glass-card fade-up">
+              <div class="category-header">
+                <div class="icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <h3>Backend</h3>
+              </div>
+              <ul class="skill-list" aria-label="Backend skills">
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> PHP</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> MySQL</li>
+              </ul>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category glass-card fade-up">
+              <div class="category-header">
+                <div class="icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                </div>
+                <h3>Tools</h3>
+              </div>
+              <ul class="skill-list" aria-label="Developer tools">
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Git</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> GitHub</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Linux</li>
+              </ul>
+            </div>
+
+            <!-- Technologies -->
+            <div class="skill-category glass-card fade-up">
+              <div class="category-header">
+                <div class="icon-wrapper" aria-hidden="true">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+                </div>
+                <h3>Technologies</h3>
+              </div>
+              <ul class="skill-list" aria-label="Core technologies">
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Artificial Intelligence</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Cloud Computing</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> Cybersecurity</li>
+                <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg> UI/UX Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Projects Section -->
+      <section id="projects" class="projects-section section-padding" aria-label="Featured Projects">
+        <div class="container">
+          <div class="section-header fade-up">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          
+          <!-- Lumina Health -->
+          <article class="project-showcase glass-card fade-up">
+            <div class="project-image">
+              <img src="/lumina_health.png" alt="Lumina Health App Dashboard" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Lumina Health</h3>
+                <span class="badge badge-status">Completed</span>
+              </div>
+              <p class="project-meta text-muted mb-2 font-medium">Category: Healthcare AI Platform</p>
+              <p class="project-description">
+                AI-powered healthcare platform focused on health scoring, clinical interpretation, intelligent analysis, and healthcare workflows.
+              </p>
+              <div class="project-impact mb-4">
+                <strong>Impact:</strong> Designed to improve health assessment workflows through structured clinical interpretation.
+              </div>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="badge badge-tech">AI Engine</span>
+                <span class="badge badge-tech">Healthcare</span>
+                <span class="badge badge-tech">React</span>
+                <span class="badge badge-tech">Python</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-primary-small" aria-label="Live Demo for Lumina Health">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="btn-secondary" aria-label="GitHub Repository for Lumina Health">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Cafe Finder Fes -->
+          <article class="project-showcase glass-card fade-up">
+            <div class="project-image">
+              <img src="/cafe_finder.png" alt="Cafe Finder Fes Interface" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Cafe Finder Fes</h3>
+                <span class="badge badge-status-ip">In Progress</span>
+              </div>
+              <p class="project-meta text-muted mb-2 font-medium">Category: Local Discovery Platform</p>
+              <p class="project-description">
+                Platform helping users discover and compare cafés across Fes through categorized listings and location-based experiences.
+              </p>
+              <div class="project-impact mb-4">
+                <strong>Impact:</strong> Connecting local businesses with coffee enthusiasts through an intuitive map-based UI.
+              </div>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="badge badge-tech">Mapbox</span>
+                <span class="badge badge-tech">Directory</span>
+                <span class="badge badge-tech">Next.js</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-primary-small" aria-label="Live Demo for Cafe Finder">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="btn-secondary" aria-label="GitHub Repository for Cafe Finder">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Electro AI -->
+          <article class="project-showcase glass-card fade-up">
+            <div class="project-image">
+              <img src="/electro_ai.png" alt="Electro AI Tools Platform" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Electro AI</h3>
+                <span class="badge badge-status">Completed</span>
+              </div>
+              <p class="project-meta text-muted mb-2 font-medium">Category: AI Tool Directory</p>
+              <p class="project-description">
+                AI discovery platform helping users explore and compare modern AI tools.
+              </p>
+              <div class="project-impact mb-4">
+                <strong>Impact:</strong> Empowers developers and creators to rapidly identify the right AI tools for their workflows.
+              </div>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="badge badge-tech">AI Discovery</span>
+                <span class="badge badge-tech">API Integration</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-primary-small" aria-label="Live Demo for Electro AI">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="btn-secondary" aria-label="GitHub Repository for Electro AI">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Car Rental -->
+          <article class="project-showcase glass-card fade-up">
+            <div class="project-image">
+              <img src="/car_rental.png" alt="Car Rental Dashboard" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>Car Rental Management System</h3>
+                <span class="badge badge-status">Completed</span>
+              </div>
+              <p class="project-meta text-muted mb-2 font-medium">Category: Enterprise Dashboard</p>
+              <p class="project-description">
+                Vehicle rental platform for reservations, customer management, and fleet operations.
+              </p>
+              <div class="project-impact mb-4">
+                <strong>Impact:</strong> Streamlines fleet logistics and boosts operational efficiency for rental businesses.
+              </div>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="badge badge-tech">Dashboard</span>
+                <span class="badge badge-tech">Logistics</span>
+                <span class="badge badge-tech">PHP/MySQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-primary-small" aria-label="Live Demo for Car Rental">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="btn-secondary" aria-label="GitHub Repository for Car Rental">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- GymFlow -->
+          <article class="project-showcase glass-card fade-up">
+            <div class="project-image">
+              <img src="/gymflow.png" alt="GymFlow Platform" loading="lazy">
+            </div>
+            <div class="project-content">
+              <div class="project-header">
+                <h3>GymFlow</h3>
+                <span class="badge badge-status">Completed</span>
+              </div>
+              <p class="project-meta text-muted mb-2 font-medium">Category: SaaS Platform</p>
+              <p class="project-description">
+                Gym management platform for memberships, subscriptions, and administration.
+              </p>
+              <div class="project-impact mb-4">
+                <strong>Impact:</strong> Automates subscription billing and enhances the member experience for fitness centers.
+              </div>
+              <div class="project-tech" aria-label="Technologies used">
+                <span class="badge badge-tech">SaaS</span>
+                <span class="badge badge-tech">Subscriptions</span>
+                <span class="badge badge-tech">Full-Stack</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn-primary-small" aria-label="Live Demo for GymFlow">
+                  Live Demo
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <a href="#" class="btn-secondary" aria-label="GitHub Repository for GymFlow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      
+      <!-- My Journey Section -->
+      <section id="journey" class="journey-section section-padding" aria-label="My Journey Timeline">
+        <div class="container">
+          <div class="section-header fade-up">
+            <h2 class="section-title">My Journey</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          <div class="timeline">
+            <!-- 2024 -->
+            <div class="timeline-item fade-up">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content glass-card">
+                <h3 class="timeline-date">2024</h3>
+                <p>Started Full-Stack Development</p>
+              </div>
+            </div>
+            <!-- 2025 -->
+            <div class="timeline-item fade-up">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content glass-card">
+                <h3 class="timeline-date">2025</h3>
+                <p>Built Real-World Software Projects</p>
+              </div>
+            </div>
+            <!-- 2026 -->
+            <div class="timeline-item fade-up">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content glass-card">
+                <h3 class="timeline-date">2026</h3>
+                <p>Earned Certifications from Harvard, AWS, Meta, IBM, and Google</p>
+              </div>
+            </div>
+            <!-- 2026 continued -->
+            <div class="timeline-item fade-up">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content glass-card">
+                <h3 class="timeline-date">2026</h3>
+                <p>Building AI, Healthcare, and Local Discovery Platforms</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications, Languages, Focus -->
+      <section id="additional-info" class="additional-info-section section-padding" aria-label="Additional Information">
+        <div class="container">
+          <div class="info-grid">
+            
+            <!-- Certifications -->
+            <div class="info-col fade-up">
+              <h3 class="info-title">Certifications</h3>
+              <div class="cert-list glass-card">
+                <div class="cert-item">
+                  <span class="cert-name">CS50 SQL</span>
+                  <span class="cert-org badge-tech">Harvard</span>
+                </div>
+                <div class="cert-item">
+                  <span class="cert-name">Cloud Practitioner Essentials</span>
+                  <span class="cert-org badge-tech">AWS</span>
+                </div>
+                <div class="cert-item">
+                  <span class="cert-name">Front-End Developer</span>
+                  <span class="cert-org badge-tech">Meta</span>
+                </div>
+                <div class="cert-item">
+                  <span class="cert-name">Python for Data Science, AI & Dev</span>
+                  <span class="cert-org badge-tech">IBM</span>
+                </div>
+                <div class="cert-item">
+                  <span class="cert-name">Project Management</span>
+                  <span class="cert-org badge-tech">Google</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Focus & Languages column -->
+            <div class="info-col">
+              
+              <!-- Current Focus -->
+              <div class="focus-section fade-up">
+                <h3 class="info-title">Current Focus</h3>
+                <div class="focus-grid glass-card">
+                  <div class="focus-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                    <span>Artificial Intelligence</span>
+                  </div>
+                  <div class="focus-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+                    <span>Cloud Computing</span>
+                  </div>
+                  <div class="focus-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                    <span>Full-Stack Development</span>
+                  </div>
+                  <div class="focus-item">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    <span>Cybersecurity Fundamentals</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Languages -->
+              <div class="languages-section fade-up mt-8">
+                <h3 class="info-title">Languages</h3>
+                <div class="lang-grid glass-card">
+                  <div class="lang-item">
+                    <span class="lang-name">Arabic</span>
+                    <span class="lang-level">Native</span>
+                  </div>
+                  <div class="lang-item">
+                    <span class="lang-name">French</span>
+                    <span class="lang-level">B2</span>
+                  </div>
+                  <div class="lang-item">
+                    <span class="lang-name">English</span>
+                    <span class="lang-level">B2</span>
+                  </div>
+                  <div class="lang-item">
+                    <span class="lang-name">German</span>
+                    <span class="lang-level">B1</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Work With Me Section -->
+      <section id="why-me" class="why-me-section section-padding" aria-label="Why Work With Me">
+        <div class="container">
+          <div class="section-header fade-up">
+            <h2 class="section-title">Why Work With Me</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          <div class="value-prop-grid">
+            <div class="value-prop-card glass-card fade-up">
+              <div class="value-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+              <h3>Strong problem-solving mindset</h3>
+            </div>
+            <div class="value-prop-card glass-card fade-up">
+              <div class="value-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg></div>
+              <h3>Continuous learner</h3>
+            </div>
+            <div class="value-prop-card glass-card fade-up">
+              <div class="value-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+              <h3>Hands-on project builder</h3>
+            </div>
+            <div class="value-prop-card glass-card fade-up">
+              <div class="value-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 2v20"></path><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div>
+              <h3>Passionate about AI & Cloud</h3>
+            </div>
+            <div class="value-prop-card glass-card fade-up">
+              <div class="value-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+              <h3>Team-oriented and adaptable</h3>
+            </div>
+            <div class="value-prop-card glass-card fade-up">
+              <div class="value-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg></div>
+              <h3>Focused on delivering practical solutions</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section section-padding" aria-label="Contact Information">
+        <div class="container">
+          <div class="section-header fade-up">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="title-underline" aria-hidden="true"></div>
+          </div>
+          
+          <div class="premium-contact-card glass-card fade-up mx-auto max-w-2xl">
+            <div class="contact-card-header text-center mb-8">
+              <h3 class="text-xl font-medium mb-2">Let's build something amazing together!</h3>
+              <p class="text-muted">Currently open for new opportunities.</p>
+            </div>
+            
+            <div class="contact-info-list">
+              <div class="contact-row">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:nassimelbadri19@gmail.com" class="contact-value">nassimelbadri19@gmail.com</a>
+                </div>
+                <button class="btn-copy" id="copy-email-btn" aria-label="Copy email address" title="Copy to clipboard">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <div class="contact-row">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Fes, Morocco</span>
+                </div>
+              </div>
+
+              <div class="contact-row">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">GitHub</span>
+                  <a href="https://github.com/nassimelbadri" target="_blank" rel="noopener noreferrer" class="contact-value external">github.com/nassimelbadri</a>
+                </div>
+              </div>
+
+              <div class="contact-row">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/nassim-elbadri/" target="_blank" rel="noopener noreferrer" class="contact-value external">linkedin.com/in/nassim-elbadri</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="glass-footer" role="contentinfo">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Back to top">NE<span>.</span></a>
+          <p>Full-Stack Developer | AI & Cloud Enthusiast</p>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/nassimelbadri" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/nassim-elbadri/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Nassim Elbadri. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
