@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "pdfkit": "^0.19.1",
     "vite": "^5.4.10"
   }
 }
